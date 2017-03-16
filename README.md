@@ -1,5 +1,7 @@
 # Botkit Starter Kit for Slack Bots on Beep Boop
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sethbergman/lucy-bot.svg)](https://greenkeeper.io/)
+
 This repo is a fork of the [Botkit Starter Kit](https://github.com/howdyai/botkit-starter-slack) from [Howdy](https://howdy.ai/).  Some changes have been made to focus on running it on [Beep Boop][beepboop].
 
 ---
