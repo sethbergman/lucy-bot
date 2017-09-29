@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node bot.js",
     "watch": "nodemon bot.js -w .",
-    "test": "standard"
+    "test": "standard",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
@@ -16,7 +18,8 @@
     "express": "^4.14.0",
     "querystring": "^0.2.0",
     "request": "^2.79.0",
-    "wordfilter": "^0.2.6"
+    "wordfilter": "^0.2.6",
+    "snyk": "^1.41.1"
   },
   "devDependencies": {
     "nodemon": "^1.11.0",
@@ -38,5 +41,6 @@
     "botkit"
   ],
   "author": "Brad Harris",
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
